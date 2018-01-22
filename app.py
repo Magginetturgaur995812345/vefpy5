@@ -14,5 +14,5 @@ def index():
 def index():
 	return "<b>Þetta er síða 3</b>"
 
-run(host="0.0.0.0", port=os.enviorn.get('PORT'))
+run(host="0.0.0.0", port=os.environ.get('PORT'))
 #run(host="localhost", port=8080)
