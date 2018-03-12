@@ -20,4 +20,8 @@ def index():
 def company(name):
     return template("company.tpl",data=data,name=name)
 
+@error(404)
+def error404(error):
+    return 'Þetta er 404 villa'
+
 run(host="0.0.0.0", port=os.environ.get('PORT'))
